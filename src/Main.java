@@ -1,5 +1,4 @@
 public class Main {
-    int[] arr = generateRandomArray();
 
     public static int[] generateRandomArray() {
         java.util.Random random = new java.util.Random();
@@ -36,9 +35,7 @@ public class Main {
         //Задание 3
 
         double averageSalary = 0;
-        for (int i = 0; i < salaries.length; i++) {
             averageSalary=total/30;
-        }
         System.out.println("Средняя сумма трат за месяц составила:" + averageSalary + "рублей.");
 
         //Задание 4
